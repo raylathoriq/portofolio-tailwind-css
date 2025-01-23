@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 
-  content:['./index.html','login.html','landing-page.html','porto.html'],
+  content:['./index.html','login.html','landing-page.html','belajar.html'],
   darkMode:'class',
   theme: {
     extend: {
