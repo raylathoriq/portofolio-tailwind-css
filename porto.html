@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="font-sans flex flex-col min-h-screen">
+     <!-- navbar start -->
+        <header class=" mb-24 fixed w-full backdrop-blur-sm shadow-md  px-4 sm:px-14 lg:px-36 z-50" >
+            <div class="relative flex max-w-none  flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+              <a class="flex items-center text-2xl font-black" href="/">    
+                <span class="text-lg sm:text-2xl text-sky-500">RTH</span>
+              </a>
+              <input class="peer hidden" type="checkbox" id="navbar-open" />
+              <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+                <img class="relative top-1" src="asset/more.png" width="20" alt="">
+              </label>
+              <nav class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+                <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+                  <li class=""><a class="text-sky-500 hover:text-blue-600" href="#beranda">Beranda</a></li>
+                  <li class=""><a class="text-sky-500 hover:text-blue-600" href="#tentang-saya">Tentang Saya</a></li>
+                  <li class=""><a class="text-sky-500 hover:text-blue-600" href="#Portofolio">Project</a></li>
+                  <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 bg-blue-600  px-6 py-2 font-medium text-white hover:bg-blue-700 active:bg-blue-700 animate-pulse" href="#">Hubungi Saya</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+     <!-- end navbar -->
+    
+     <!-- section start -->
+      <section class="pt-36" id="beranda">
+        <div class="container sm:flex sm:justify-between sm:items-center mx-auto px-4 sm:px-14 lg:px-36">
+            <div class="wrapper"
+            data-aos="fade-right"
+            data-aos-duration="2000">
+                <h3 class="text-sky-500 font-semibold text-lg">Halo Semua🖐️ saya</h3>
+                <h3 class="font-bold text-4xl mt-2 w-80 sm:w-full">Rayla Thoriq <span class="text-red-500">Hafuza</span></h3> 
+                <p class="opacity-50 font-extralight text-sm">Web Developer</p>
+                <p class="mt-4 sm:w-96 mb-5 text-[15px] sm:text-lg">Saya adalah seorang Web Developer. Saya sangat antusias dalam mengembangkan berbagai proyek web dan selalu mencari peluang untuk belajar hal baru. Jika Anda memiliki pertanyaan atau ingin berkolaborasi, jangan ragu untuk menghubungi saya</p>
+                
+            </div>
+            <div class="image-profile"
+            data-aos="fade-left"
+            data-aos-duration="2000">
+                <div class="mt-10 hidden sm:block  -top-10">
+                    <img src="asset/pp-removebg-preview.png" alt="" width="400" height="400" class="max-w-full  bg-gradient-to-tl from-sky-100 to-sky-300 rounded-full">
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- section end -->
+
+      <!-- section start -->
+       <section class="mt-3 py-2 w-full pt2 bg-sky-500" id="tentang-saya" 
+       data-aos="fade-up"
+       data-aos-duration="2000">
+        <div class="about-me pt-2 text-center">
+            <h3 class="text-2xl sm:text-3xl text-slate-100 font-medium mb-5">Tentang Saya</h3>
+            <p class="text-slate-100 w-72 sm:w-3/6 inline-block  sm:text-lg  "> Halo, saya Rayla Thoriq Hafuza, seorang Web Developer.
+
+                Saya adalah Mahasiswa Sistem Informasi di Universitas Pembangunan Nasional Jakarta. Saya telah bekerja di beberapa proyek web development, sepert Semudah, SIPKL, Laundry Online, serta yang lainnya. Saya mahir dalam HTML, CSS, JavaScript, PHP serta framework seperti Laravel dan Tailwind CSS.          
+            </p>
+        </div> 
+    </section>
+    <!-- section end -->
+    <!-- section start -->
+    <section class="bg-slate-100">
+        <div class="head" 
+        data-aos="fade-down"
+        data-aos-duration="2000">
+            <h3 class="text-sky-500 font-bold text-center text-2xl mt-24">PORTOFOLIO</h3>
+            <h3 class="text-slate-400 font-bold text-center text-3xl">Projek saya</h3>
+        </div>
+        <div class="project w-full mt-24 sm:flex mx-auto">
+            <div class="detail-project mx-auto sm:w-2/6 border-b-4 w-80 border-black mb-4"
+            data-aos="flip-left"
+            data-aos-duration="1700">
+                <img src="asset/Semudah.jpg" class="inline-block mb-5 aspect-video" alt="" >
+                <h3 class="font-bold text-xl sm:text-2xl" 
+                data-aos="fade-up"
+                data-aos-duration="1700"
+                >SEMUDAH</h3>
+                <p class="mt-5 mb-4  sm:text-xl md:text-lg"  
+                data-aos="fade-up"
+                data-aos-duration="2000">Semudah adalah layanan website yang menyediakan berbagai jasa, seperti perbaikan perangkat keras, aktivasi Windows, dan aktivasi Office secara daring. Dengan layanan ini, pelanggan tidak perlu datang ke tempat secara langsung.</p>
+            </div>
+            <div class="detail-project mx-auto sm:w-2/6  w-80 border-black border-b-4 mb-4"
+            data-aos="flip-right"
+            data-aos-duration="1700">
+                <img src="asset/laundry.jpg" class="inline-block mb-5 aspect-video" alt="" >
+                <h3 class="font-bold text-xl sm:text-2xl" 
+                data-aos="fade-up"
+                data-aos-duration="1700"
+                >Laundry Online</h3>
+                <p class="mt-5 mb-4 sm:text-xl md:text-lg"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                >Laundry online adalah platform daring yang menawarkan layanan laundry, dirancang untuk mempermudah pelanggan dalam membuat pesanan. Fitur unggulan mencakup login multi-level, CRUD untuk paket laundry, serta sistem transaksi yang terintegrasi, memastikan proses yang efisien dan aman</p>
+            </div>
+        </div>
+        <div class="project w-full mt-4 sm:flex mx-auto">
+            <div class="detail-project mx-auto sm:w-2/6  border-b-4 w-80 border-black mb-4 "
+            data-aos="flip-left"
+            data-aos-duration="1700">
+                <img src="asset/SIPKL.jpg" class="inline-block mb-5 aspect-video" alt="" >
+                <h3 class="font-bold text-xl sm:text-2xl" 
+                data-aos="fade-up"
+                data-aos-duration="2000">Sistem Informasi PKL</h3>
+                <p class="mt-5 mb-4  sm:text-xl md:text-lg " 
+                data-aos="fade-up"
+                data-aos-duration="1700">SIPKL adalah platform daring yang dirancang khusus untuk siswa yang sedang menjalani Praktik Kerja Lapangan (PKL) di Universitas Negeri Jakarta. Website ini memfasilitasi siswa dalam mengisi absensi, mencatat jurnal, dan mendokumentasikan kegiatan harian selama masa PKL. Dengan demikian, SIPKL membantu menciptakan proses pemantauan dan pelaporan yang lebih terstruktur dan efisien.</p>
+            </div>
+            <div class="detail-project mx-auto sm:w-2/6  w-80 border-black border-b-4 mb-4"
+            data-aos="flip-right"
+            data-aos-duration="1700">
+                <img src="asset/Kasir.jpg" class="inline-block mb-5 aspect-video" alt="" >
+                <h3 class="font-bold text-xl sm:text-2xl" 
+                data-aos="fade-up"
+                data-aos-duration="2000">Sistem Kasir</h3>
+                <p class="mt-5 mb-4 sm:text-xl md:text-lg" 
+                data-aos="fade-up"
+                data-aos-duration="1700">Sistem Kasir adalah aplikasi web yang dikembangkan selama Uji Sertifikasi Kompetensi untuk Sertifikasi Okupasi Asisten Pemrogram Junior. Website ini dilengkapi dengan fitur seperti keranjang belanja real-time, CRUD, dan sistem pembayaran, yang memastikan proses transaksi berjalan lancar dan efisien. </p>
+            </div>
+        </div>
+    </section>
+       <!-- section end -->
+
+
+     <!-- footer start -->
+            <footer class="bg-sky-500  w-full  text-white" 
+            data-aos="fade-up"
+            data-aos-duration="1700">
+                <div class="child-footer h-72 sm:flex sm:justify-between sm:items-center sm:px-32 px-9">
+                    <div class="left mb-5">
+                        <h3 class="font-bold text-2xl">Rayla Thoriq </h3>
+                        <p>raylathoriq14@gmail.com</p>
+                    </div>
+                    <div class="center mb-12n">
+                        <h3 class="font-bold text-2xl relative -left-1 mb-5">Tautan</h3>
+                        <ul class="font-semibold">
+                            <li class="mb-2">Beranda</li>
+                            <li class="mb-2">Tentang Saya</li>
+                            <li class="mb-2">Portofolio</li>
+                        </ul>
+                    </div>
+                    <div class="right flex items-center gap-x-3 text-white ">
+                        <a href="https://www.instagram.com/thoriq.hfz?igsh=MW02b3NjdWNsMjd1eA==" target="_blank">
+                            <i class="fa-brands fa-instagram inline-block text-3xl"></i>
+                        </a>
+                        <a href="https://github.com/raylathoriq" target="_blank">
+                            <i class="fa-brands fa-github inline-block text-3xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rayla-thoriq-135604295">
+                            <i class="fa-brands fa-linkedin inline-block text-3xl" target="_blank"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr class="border-3 border-slate-100 w-5/6 mx-auto ">
+                <p class="text-center">&copyraylathoriq</p>
+
+                
+            </footer>
+        
+       
+
+
+     <!-- end footer -->
+    
+        
+
+
+    
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
+      
+      
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container m-0 p-0 max-w-none">
+        <header class="mb-2 px-4">
+            <div class="relative  flex max-w-none px-7 flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+              <a class="flex items-center text-2xl font-black" href="/">    
+                <span class="text-lg sm:text-2xl">Bike Shop</span>
+              </a>
+              <input class="peer hidden" type="checkbox" id="navbar-open" />
+              <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+                <img class="relative top-1" src="asset/more.png" width="20" alt="">
+              </label>
+              <nav class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+                <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+                  <li class=""><a class="text-gray-600 hover:text-blue-600" href="#">Pricing</a></li>
+                  <li class=""><a class="text-gray-600 hover:text-blue-600" href="#">Demo</a></li>
+                  <li class=""><a class="text-gray-600 hover:text-blue-600" href="#">Support</a></li>
+                  <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 border-blue-600 px-6 py-2 font-medium text-blue-600 hover:bg-blue-600 hover:text-white" href="#">Login</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+          <div class="w-full bg-emerald-400 h-96 mb-5">
+          </div>
+            
+            <div class="overflow-x-auto flex space-x-4 snap-x snap-mandatory touch-auto">
+              <img src="asset/2.jpg" class="inline-block w-full max-w-xs" alt="Image 1">
+              <img src="asset/2.jpg" class="inline-block w-full max-w-xs" alt="Image 2">
+              <img src="asset/2.jpg" class="inline-block w-full max-w-xs" alt="Image 3">
+              <img src="asset/2.jpg" class="inline-block w-full max-w-xs" alt="Image 3">
+              <img src="asset/2.jpg" class="inline-block w-full max-w-xs" alt="Image 3">
+            </div>
+            
+</body>
+</html>
