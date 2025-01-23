@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        html {
+      scroll-behavior: smooth; 
+    }
+    </style>
 </head>
 <body class="font-sans flex flex-col min-h-screen">
      <!-- navbar start -->
@@ -24,7 +29,7 @@
                   <li class=""><a class="text-sky-500 hover:text-blue-600" href="#beranda">Beranda</a></li>
                   <li class=""><a class="text-sky-500 hover:text-blue-600" href="#tentang-saya">Tentang Saya</a></li>
                   <li class=""><a class="text-sky-500 hover:text-blue-600" href="#Portofolio">Project</a></li>
-                  <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 bg-blue-600  px-6 py-2 font-medium text-white hover:bg-blue-700 active:bg-blue-700 animate-pulse" href="#">Hubungi Saya</a></li>
+                  <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 bg-blue-600  px-6 py-2 font-medium text-white hover:bg-blue-700 active:bg-blue-700 animate-pulse" href="#hubungi">Hubungi Saya</a></li>
                 </ul>
               </nav>
             </div>
@@ -68,7 +73,7 @@
     </section>
     <!-- section end -->
     <!-- section start -->
-    <section class="bg-slate-100">
+    <section class="bg-slate-100" id="Portofolio">
         <div class="head" 
         data-aos="fade-down"
         data-aos-duration="2000">
@@ -142,12 +147,18 @@
                     <div class="center mb-12n">
                         <h3 class="font-bold text-2xl relative -left-1 mb-5">Tautan</h3>
                         <ul class="font-semibold">
-                            <li class="mb-2">Beranda</li>
-                            <li class="mb-2">Tentang Saya</li>
-                            <li class="mb-2">Portofolio</li>
+                            <a href="#beranda">
+                                <li class="mb-2">Beranda</li>
+                            </a>
+                            <a href="#tentang-saya">
+                                <li class="mb-2">Tentang Saya</li>
+                            </a>
+                            <a href="#Portofolio">
+                                <li class="mb-2">Portofolio</li>
+                            </a>                           
                         </ul>
                     </div>
-                    <div class="right flex items-center gap-x-3 text-white ">
+                    <div class="right flex items-center gap-x-3 text-white " id="hubungi">
                         <a href="https://www.instagram.com/thoriq.hfz?igsh=MW02b3NjdWNsMjd1eA==" target="_blank">
                             <i class="fa-brands fa-instagram inline-block text-3xl"></i>
                         </a>
